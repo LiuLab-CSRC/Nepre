@@ -10,9 +10,9 @@
 Introduction
 ---------------
 Nepre is a scoring function for calculating the protein's potential energy. And it will help to predict the 3D structure of a protein.
-Nepre is designed to be **efficient**, **flexible** and **protable** with **two** typical algorithm included:
-* Calculate the potential energy using different cutoff (Nepre-F).
-* Calculate the potential energy using the radius of amino acid (Nepre-R). 
+Nepre is designed to be **efficient**, **flexible** and **protable** with **two** algorithms included:
+* Calculate the potential energy using **fixed** cutoff (Nepre-F).
+* Calculate the potential energy using the cutoff defined by the radius of amino acid (Nepre-R). 
 
 #### Nepre-F
 Users can use the cutoff between 4 angstrom and 10 angstrom to calculate the potential energy.
