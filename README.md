@@ -22,7 +22,7 @@ Users can use the distance cutoff between 4 angstrom and 10 angstrom to calculat
 #### Installation 
 The Nepre is implemented with Python 2.7, and the installation is straightforward. It can be downloaded and executed if numpy modules are installed in the python environment.
 
-The required package is **numpy**. The support to Python 3.x will be added soon.
+The required package is **numpy**. 
 
 The usage for Nepre-F and Nepre-R can be found in the corresponding folders (Cutoff & Radius).
 
@@ -32,9 +32,7 @@ CopyRight
 
 Status
 -------------
-Nepre is built completely on **python2.7**. The  modules required for using Nepre are: 
-* numpy
-* tqmd
+Nepre is built completely on **python2.7**. The support to Python 3.x will be added soon.
 
 Contact Us
 -------------
