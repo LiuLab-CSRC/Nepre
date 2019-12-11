@@ -15,9 +15,14 @@ Nepre is designed to be **efficient**, **flexible** and **protable** with **two*
 * Calculate the potential energy using the cutoff defined by the radius of amino acid (Nepre-R). 
 
 #### Nepre-F
-Users can use the cutoff between 4 angstrom and 10 angstrom to calculate the potential energy.
+Users can use the distance cutoff between 4 angstrom and 10 angstrom to calculate the potential energy (distance cutoff=6A is recommended).
 #### Nepre-R  
 30,000 high-resolution protein are used to get statistical result of radius and fitted by the gaussian distribution function. Then Nepre will calculate the potential energy according to the gaussian mean data of radius of each kind of amino acid.
+
+#### Installation and Usage
+The Nepre is implemented with Python 2.7, and the installation is straightforward. The only required package is **numpy**. The support to Python 3.x will be added soon.
+
+The usage for Nepre-F and Nepre-R can be found in the corresponding folders.
 
 CopyRight
 -------------
