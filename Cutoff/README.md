@@ -27,9 +27,9 @@ optional arguments:
   -o, --output  save the results as a text file in running folder
 ```
 
-For **single** protein potential energy calculate, choose a cutoff (6 angstrom e.g) and type:
+For **single** protein potential energy calculate, choose a cutoff (6 angstrom e.g) and turn on **-s** flag:
 
-#Print results to the terminal
+## Print results to the terminal
 ```shell
 Nepre@liulab:~$ python Nepre_F.py -s ../example/pdb/native.pdb 6
 ```
@@ -40,14 +40,14 @@ Using Cutoff: 6
 ../example/pdb/native.pdb -74.65268164490764
 ```
 
-#Save the results in a text file(Same folder with Nepre.py with name "latest_results.txt")
+## Save the results in a text file(Same folder with Nepre.py with name "latest_results.txt")
 ```Shell
 Nepre@liulab:~$ python Nepre_F.py -s -o ../example/pdb/native.pdb 6
 ```
 
-For **multi-object** calculation, you can type:
+For **multi-object** calculation, you can use **-m** flag:
 
-#Print results to the terminal
+## Print results to the terminal
 ```Shell
 Nepre@liulab:~$ python Nepre_F.py -m ../example/pdb/ 6
 ```
@@ -80,7 +80,7 @@ native.pdb 	-74.65268164490764
 decoy1_43.pdb 	-68.45272155017172
 ```
 
-#Save the results in a text file(Same folder with Nepre.py with name "latest_results.txt")
+## Save the results in a text file(Same folder with Nepre.py with name "latest_results.txt")
 ```Shell
 Nepre@liulab:~$ python Nepre_F.py -m -o ../example/pdb/ 6
 ```
