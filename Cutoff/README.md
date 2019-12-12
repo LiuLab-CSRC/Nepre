@@ -30,10 +30,15 @@ optional arguments:
 For **single** protein potential energy calculate, choose a cutoff (6 angstrom e.g) and type:
 <pre><code>
 #Not save the results in a text file
-Nepre@liulab:~$ python Nepre_F.py -s ./example.pdb 6
+Nepre@liulab:~$ python Nepre_F.py -s ../example/pdb/native.pdb 6
+```shell
+Nepre Potential Energy
+Using Cutoff: 6
+../example/pdb/native.pdb -74.65268164490764
+```
 
 #Save the results in a text file(Same folder with Nepre.py with name "latest_results.txt")
-Nepre@liulab:~$ python Nepre_F.py -s -o ./example.pdb 6
+Nepre@liulab:~$ python Nepre_F.py -s -o ../example/pdb/native.pdb 6
 </code></pre>
 
 For **multi-object** calculation, you can type:
