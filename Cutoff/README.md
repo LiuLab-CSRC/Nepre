@@ -6,9 +6,10 @@ Usage
 The runing folder should contain:
 * Nepre_F.py (Main program)
 * AminoAcid.py (Class for establish amino acid)
-* cutoff.npy (Energy matrix)
+* {cutoff}.npy (Energy matrix)
 
-We provide **7** cutoff options with cutoff between **4** angstrom and **10** angstrom.
+where cutoff is a number from 4 to 10, describing the distance threshold for the neighborhood. We provide **7** cutoff options with cutoff between **4** angstrom and **10** angstrom.
+
 You can see help information by typing:
 ```Shell
 Nepre@liulab:~$ python Nepre_F.py -h
