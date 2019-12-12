@@ -10,7 +10,7 @@ The runing folder should contain:
 
 We provide **7** cutoff options with cutoff between **4** angstrom and **10** angstrom.
 You can see help information by typing:
-```
+```Shell
 Nepre@liulab:~$ python Nepre_F.py -h
 usage: Nepre_F.py [-h] [-s | -m] [-o] path cutoff
 
@@ -41,13 +41,14 @@ Using Cutoff: 6
 ```
 
 #Save the results in a text file(Same folder with Nepre.py with name "latest_results.txt")
+```Shell
 Nepre@liulab:~$ python Nepre_F.py -s -o ../example/pdb/native.pdb 6
-</code></pre>
+```
 
 For **multi-object** calculation, you can type:
 
 #Print results to the terminal
-```
+```Shell
 Nepre@liulab:~$ python Nepre_F.py -m ../example/pdb/ 6
 ```
 The results are:
@@ -80,12 +81,12 @@ decoy1_43.pdb 	-68.45272155017172
 ```
 
 #Save the results in a text file(Same folder with Nepre.py with name "latest_results.txt")
-```
+```Shell
 Nepre@liulab:~$ python Nepre_F.py -m -o ../example/pdb/ 6
 ```
 
 You can also use **Nepre_F.py** as a module if you want to use the calculation results for other purposes:
-<pre><code>
+```Python
 import Nepre_F
 
 #choose a cutoff
@@ -100,14 +101,14 @@ Matrix = Nepre_F.load_EnergyMatrix(cutoff)
 
 #calculate Nepre potential energy
 E = Nepre_F.calculate_Energy(f,Matrix,cutoff)
-</code></pre>
+```
 
 Extensions
 ----------
 Nepre module also provide some useful function:
 * Calculate the pearson coefficient correlation.
 * Extract data from standard PDB file.
-<pre><code>
+```Python
 """
 Pearson Coefficient
 """
@@ -124,4 +125,4 @@ f = open("./example.pdb")
 res = []
 for line in f.readlines():
     res.append(Nepre_F.extract_Data(line))
-</code></pre>
+```
