@@ -28,10 +28,11 @@ optional arguments:
 </code></pre>
 
 For **single** protein potential energy calculate, choose a cutoff (6 angstrom e.g) and type:
-<pre><code>
+
 #Not save the results in a text file
-Nepre@liulab:~$ python Nepre_F.py -s ../example/pdb/native.pdb 6
 ```shell
+Nepre@liulab:~$ python Nepre_F.py -s ../example/pdb/native.pdb 6
+
 Nepre Potential Energy
 Using Cutoff: 6
 ../example/pdb/native.pdb -74.65268164490764
