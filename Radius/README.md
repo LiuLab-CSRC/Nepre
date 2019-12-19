@@ -14,12 +14,12 @@ fit them and use the **gaussian mean** data as the default value. See details in
 You can see help information by typing:
 <pre><code>
 Nepre@liulab:~$ python Nepre_R.py -h
-usage: Nepre_R.py [-h] [-s | -m] [-o] path
+usage: Nepre_R.py [-h] [-s | -m] [-o] pdb_filename
 
 Nepre-R Scoring Function Created by CSRC
 
 positional arguments:
-  path          PDB file path of folder path
+  path_filename        Path to PDB file 
 
 optional arguments:
   -h, --help    show this help message and exit
@@ -31,19 +31,19 @@ optional arguments:
 For **single** protein potential energy calculate, go to linux shell and type:
 <pre><code>
 #Not save the results in a text file
-Nepre@liulab:~$ python Nepre_R.py -s ./example.pdb
+Nepre@liulab:~$ python Nepre_R.py -s ../example/test_decoy_set/native.pdb
 
 #Save the results in a text file(Same folder with Nepre.py with name "latest_results.txt")
-Nepre@liulab:~$ python Nepre_R.py -s -o ./example.pdb
+Nepre@liulab:~$ python Nepre_R.py -s -o ../example/test_decoy_set/native.pdb
 </code></pre>
 
 For **multi-object** job you can type:
 <pre><code>
 #Not save the results in a text file
-Nepre@liulab:~$ python Nepre_R.py -m ./pdb_folder/
+Nepre@liulab:~$ python Nepre_R.py -m ../example/test_decoy_set/
 
 #Save the results in a text file(Same folder with Nepre.py with name "latest_results.txt")
-Nepre@liulab:~$ python Nepre_R.py -m -o ./pdb_folder/
+Nepre@liulab:~$ python Nepre_R.py -m -o ../example/test_decoy_set/
 </code></pre>
 
 You can also using **Nepre_R.py** as a module:
