@@ -222,8 +222,8 @@ def calculate_Energy(df,matrix):
                     E += matrix[UseAA_list[m].name][UseAA_list[n].name][theta][phi] / rho 
                     
                     
-    #return E
-    return E,UseAA_list,IgnoreAA_list
+    return E
+    #return E,UseAA_list,IgnoreAA_list
 
 
 if __name__ == "__main__":

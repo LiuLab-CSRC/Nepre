@@ -197,7 +197,6 @@ def calculate_Energy(f,matrix,cutoff):
                 # we believe the two amino acid have interaction.
                 if(dis < cutoff):
                     rho,theta,phi = UseAA_list[m].ChangeCoordinate(UseAA_list[n].center)
-                    print rho,theta,phi
                     theta = min(int(math.floor(theta*20/np.pi)),19)
                     phi = min(int(math.floor(phi*10/np.pi) + 10),19)
                     E += matrix[UseAA_list[m].name][UseAA_list[n].name][theta][phi] / rho 

@@ -1,5 +1,5 @@
 cutoff=6
-pdb_folder=example/test_decoy_set/
+pdb_folder=../example/test_decoy_set/
 pdb_name='native.pdb'
 
 echo 'Calculating energy for a single PDB structure with cutoff=6'
