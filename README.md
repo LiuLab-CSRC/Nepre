@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/language-Python-seagreen.svg?style=flat-square)
 ![](https://img.shields.io/badge/platform-Linux|Windows-blue.svg?style=flat-square&logo=Linux)
 
-[LiuLab](http://liulab.csrc.ac.cn) | [Article](https://www.biorxiv.org/content/10.1101/463554v1) | [WebServer](http://liulab.csrc.ac.cn:10004/index/) | [Code Package](https://github.com/LiuLab-CSRC/Nepre) 
+[LiuLab](http://liulab.csrc.ac.cn) | [Article](https://www.biorxiv.org/content/10.1101/463554v1) | [Code Package](https://github.com/LiuLab-CSRC/Nepre) 
 
 Introduction
 ---------------
