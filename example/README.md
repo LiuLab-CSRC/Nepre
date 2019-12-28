@@ -24,8 +24,3 @@ The expected output from run_example.csh
 structure decoys used to test the nepre functions (randomly selected from i-tasser dataset)
 ```
 
-------------------------------
-* vastpe_7.txt
-```
-The list of PDB&Chain ID's of a non-redundant dataset used to compile nepre energies
-```
